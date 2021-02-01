@@ -1,0 +1,98 @@
+/*reseteamos todos las opciones que pueden venir por defecto en los navagadores */
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+/*ponemos la fuente de toda la pagina*/
+body{
+	font-family: Arial;
+}
+/*comienzo de la cabecera*/
+.header{
+	background-color: #7b7b7b;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	height: 100px;
+	border: 1px solid black;
+}
+h1{
+	vertical-align: middle;
+	line-height: 100px;
+	font-size: 40px;
+	color: #323e4f;
+}
+/*fin cabecera*/
+/*barra lateral*/
+.categorias {
+	width: 200px;
+	text-transform: uppercase;
+	background-color: #c9c9c9;
+	position: fixed;
+	height: 100%;
+	margin-top: 101px;
+	border: 1px solid black;
+}
+ul{
+	padding: 50px;
+}
+li{
+	padding:10px;
+}
+/*fin barra lateral*/
+/*el contenido de la pagina en si*/
+.content{
+	width: 100%;
+}
+.receta{
+	padding-left: 220px;
+	padding-top: 120px
+}
+/*inicio diseoño imagen*/
+.imgR{
+	float: left;
+	margin-bottom: 20px;
+}
+img{ 
+	border: 7px solid #fceac4;
+	border-radius: 3px;
+}
+/*fin imagen*/
+/*caracteristicas generales del texto*/
+.resaltados{
+	font-weight: bold;
+
+}
+p{
+	padding: 5px;
+}
+/*fin caracteristicas*/
+.ingredientes{
+	width: 300px;
+	float: left;
+	margin-top: 10px;
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+/*caracteristicas del*/
+.carac{
+	margin-top: 220px;
+}
+/*cuerpo de la receta*/
+.cuerpo{
+	margin-top: 50px;
+}
+/*parrafos de la preparacion de la receta*/
+.prep{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+/*fin del pagina para darle cierto espacio al final*/
+.ending{
+	margin-top: 100px;
+}

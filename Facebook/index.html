@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Backpage</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Sara Perez">
+	<meta name="description" content="Ejercicion Backpage">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+	</style>
+</head>
+<body>
+	<!-- ---------- login -------------- -->
+	<div id = "header">
+		<table class = "tableLogin">
+			<thead>
+				<th>Direccion de correo electronico</th>
+				<th>Contraseña</th>
+				<th></th>
+			</thead>
+			<tr>
+				<td class="dir"><input type="text" name="email"></td>
+				<td class="pwd"><input type="password" name="pwd"></td>
+				<td><button type="button" id="entrar">Entrar</button></td>
+			</tr>
+			<tr>
+				<td class="dir"><input type="checkbox" name="checkbox" id="cerrarSesion"><label for="cerrarSesion">No cerrar secion</label></td>
+				<td class="pwd"><a href="#">¿Olvidadaste tu contraseña?</a></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+	<!-- ---------- registro ----------- -->
+	<div id="registro">
+		
+		<font style="font-size:175%;color:#4e69a2"> Regístrate </font> <br> <font style="font-size:110%;color:#4e69a2"> Es gratis </font>
+		
+		<hr>
+		<!-- ------------ formulario de registro ---------  -->
+		<table id="regTable">
+			<tbody>
+				<tr>
+					<td><label for="name">Nombre:</label></td>
+					<td><input type="text" id = "name" name="name"></td>
+					
+				</tr>
+				<tr>
+					<td><label for="apellidos">Apellidos:</label></td>
+					<td><input type="text" id = "apellidos" name="apellidos"></td>
+				</tr>
+				<tr>
+					<td><label for="email">Tu correo electronico:</label></td>
+					<td><input type="text" id = "email" name="email"></td>
+				</tr>
+				<tr>
+					<td><label for="emailConfirma">Vuelve a escribir tu correo:</label></td>
+					<td><input type="text" id = "emailConfirma" name="emailConfirma"></td>
+				</tr>
+				<tr>
+					<td><label for="pwd">Contraseña:</label></td>
+					<td><input type="password" id = "pwd" name="pwd"></td>
+				</tr>
+				<tr>
+					<td><label for="pwdConfirma">Vuelve a escribir tu contraseña:</label></td>
+					<td><input type="password" id = "pwdConfirma" name="pwdConfirma"></td>
+				</tr>
+				<tr>
+					<td><label for="genero">Genero:</label></td>
+					<td><select name = "genero">
+						<option value = "0">Selecciona el genero</option>
+						<option value="M">Mujer</option>
+						<option value="H">Hombre</option>
+						<option value="N">No binario</option>
+						<option value="O">Otro</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td><label for="fecha">Fecha de nacimiento:</label></td>
+					<td><input type="date" id = "fecha" name="fecha"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td style="width: 400px;"><a href = "#">¿Por que tengo que proporcionar mi fecha de nacimiento?</a></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><button type="button" id="registro">Registrate</button></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<hr>
+		<!-- ----------- foot ------------- -->
+		<font><a href="#">Crear una página</a> para una celebridad, un grupo de musica o un genocio.</font>
+	</div>
+</body>
+</html>

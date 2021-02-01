@@ -1,0 +1,43 @@
+body{
+	/*cambiamos la fuente*/
+	font-family: Arial;
+}
+
+h3{
+	/*alineando el titulo de la tabla*/
+	padding-left:400px;
+}
+table, thead{
+	/*ponemos caracteristicas comunes a la tabla*/
+	border: 7px solid #0b3861;
+	border-collapse: collapse;
+}
+th{
+	/*nuestra cabecera*/
+	background-color: #086a87;
+	color: white;
+	padding-top: 25px;
+	padding-bottom: 2px;
+	border-color: #0b3861;
+}
+td{
+	/*color de las celdas*/
+	border-color:grey;
+}
+.description{
+	/*nombre apellidos y direccion*/
+	background-color: #81daf5;
+	padding: 10px 100px 10px 15px;
+}
+.dni{
+	background-color: #fe2e2e;
+	color: white;
+	padding: 10px 10px 10px 25px;
+	text-align: right;
+}
+.fisico{
+	/*altura peso y edad*/
+	background-color: white;
+	padding: 15px;
+	text-align: center;
+}

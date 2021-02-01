@@ -1,0 +1,71 @@
+div#header{
+	background-color: #4E69A2;
+	color: white;
+	width: 600px;
+	padding: 15px;
+}
+.tableLogin{
+	text-align: left;
+}
+th{
+	font-weight: bold;
+}
+.dir{
+	width: 300px;
+}
+.pwd{
+	width: 250px;
+}
+#entrar{
+	background-color: #4E6988;
+	color: white;
+	border: 1px solid #707d99;
+
+}
+a:link{
+	color: white;
+	text-decoration: none;
+	
+}
+div#registro{
+	padding: 15px;	
+	width: 600px;
+	background-color: #D3D8E8;
+
+}
+span{
+	color: #4E69A2;
+}
+h3#tituloRegistro{
+	font-size: 40px;
+}
+hr{
+	align-content: center;
+	/*width: 95%;*/
+	padding-left: 15px;
+	padding-right: 15px
+
+}
+#regTable{
+	padding-left: 40px;
+}
+#regTable tbody>tr>:nth-child(1){
+	text-align: right;
+	width: 125px;
+}
+#regTable input{
+	width: 250px;
+}
+#regTable tbody>tr>:nth-child(2){
+	padding-left: 10px;
+	text-align: left;
+	width: 300px;
+}
+
+button#registro{
+	background-color: #5FB44A;
+	color: white;
+	border-color: white;
+	border-style: solid;
+	padding: 4px;
+}

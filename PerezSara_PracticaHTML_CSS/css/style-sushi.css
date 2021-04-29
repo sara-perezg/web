@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+	z-index: -1;
+}
+/* ---------- sushiIntro -------- */
+.sushiIntro{
+	background-image: url(../images/sushi-cooker.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: -50px;
+	height:500px;
+	padding-top: 150px;
+	padding-right: 100px;
+	color: #fff;
+}
+.sushiIntro h1{
+	text-align: right;
+	width: 97%;
+	font-size: 40px;
+	padding:10px;
+}
+.sushiIntro p{
+	float: right;
+	text-align: right;
+	padding: 15px;
+	width: 400px;
+}
+/* ------------- END sushiIntro--------- */
+/* ------ productos -------*/
+.productos{
+	height: 700px;
+	padding-top: 60px;
+	position: relative;
+}
+.productos h1{
+	text-align: center;
+	font-size: 40px;
+}
+.table{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.productos table td{
+	padding: 15px;
+}
+.productos table img {
+	height: 355px;
+	border-radius: 8px;
+}
+.productos table h3{
+	text-align: center;
+	padding: 15px;
+}
+
+.productos a{
+	position: absolute;
+	top: 110%;
+	left: 50%;
+	transform: translate(-50%,-110%);
+	padding: 10px 20px;
+	border: 2px solid #000;
+	border-radius: 4px;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 15px;
+}
+.productos a:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+/* ------ END productos ------- */
+/*---------- subscribe -----*/
+.subscribe{
+	height: 300px;
+	text-align: center;
+	background: url("../images/subscribe2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: -250px;
+	color: #fff;
+}
+.subscribe p{
+	padding-top:50px;
+	padding-bottom: 15px;
+	font-size: 25px;
+}
+.subscribe input{
+	border-radius: 4px;
+}
+.subscribe button{
+	padding: 5px 10px;
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.subscribe button:hover{
+	background-color: #fff;
+	color: #000;
+}
+/*---------- END subscribe -----*/
+/* ---------- footer ----------- */
+.footer{
+	color: #fff;
+	font-size:12px;
+	text-align: center;
+	height:30px;
+	background-color:#122020;
+}
+.footer p{
+	padding: 5px 5px;
+}
+/* ------------ END footer ------------ */

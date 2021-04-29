@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Lua</title>
+	<meta name = "author" content = "Sara Perez Garcia"/>
+	<meta name = "description" content = "Restaurante fusion asiatica"/>
+	<meta charset = "utf-8"/>
+	<link rel = "stylesheet" href = "css/style-nav.css"/>
+	<link rel = "stylesheet" href = "css/style-index.css"/>
+	<link rel="icon"  type="image/png" href="images/logo-blanco.png" sizes="16x16"/>
+</head>
+<body>
+	<!-- navigator -->
+	<nav class = "navigator">
+		<p class = "logo"><a href = "index.html"><img src = "images/logo.png"/> Lua</a></p>
+		<ul class = "menu">
+			<li class = "menu-content"><a href = "index.html#contacto">Contacto</a></li>
+			<li class = "menu-content"><a href = "index.html#nosotros">Nosotros</a></li>
+			<li class = "menu-content"><a href = "#">Opciones</a>
+				<ul class = "submenu">
+					<li class = "submenu-content"><a href = "sushi.html">Sushi</a></li>
+					<li class = "submenu-content"><a href = "ramen.html">Ramen</a></li>
+					<li class = "submenu-content"><a href = "pokes.html">Pokes</a></li>
+					<li class = "submenu-content"><a href = "ceviches.html">Ceviches</a></li>
+				</ul>
+			</li>
+			<li class = "menu-content"><a href = "index.html">Home</a></li>
+		</ul>
+	</nav>
+	<section id = "welcome">
+		<div class = "welcome">
+			<span class = "welcome-content">
+				<h1>Bienvenidos a Lua</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Duis fringilla viverra pharetra. Nam in lectus pulvinar, maximus tellus sit amet,
+				tincidunt lacus. Integer sed lectus sed leo vehicula consectetur. </p>
+				
+				<button type = "button"><a href = "#contacto">Reserva</a></button>
+				
+			</span>
+		</div>
+	</section>
+	<!-- FIN navigator -->
+	<section id = "nosotros">
+		<div class = "nosotros">
+			<h3>Nosotros</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae bibendum nulla. 
+			Maecenas at turpis a erat eleifend iaculis. Sed ultricies ante ac mi rhoncus dictum.
+			Phasellus vulputate lectus at enim laoreet consectetur. Donec non ex venenatis,
+			varius neque at, iaculis turpis. Pellentesque eu lobortis ligula. Sed ornare vulputate
+			nunc, id luctus quam malesuada in.Phasellus quis posuere tortor, a facilisis tellus. 
+			Etiam imperdiet a mauris at convallis. </p>
+		</div>
+		<span class = "imagen">
+			<img src = "images/woman-cooking-round.jpg"/>
+		</span>
+	</section>
+	<!-- FIN nosotros -->
+	<!-- contacto -->
+	<section id = "contacto">
+		<div class = "contacto">
+			<h1>Contacto</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae bibendum nulla. 
+			Maecenas at turpis a erat eleifend iaculis. Sed ultricies ante ac mi rhoncus dictum.
+			Phasellus vulputate lectus at enim laoreet consectetur. Donec non ex venenatis,
+			varius neque at, iaculis turpis. </p>
+			<div class = "formulario">
+				<form action="mailto:reservas@lua.com" method = "post">
+					<table>
+						<tr>
+							<td>Nombre</td>
+							<td>Telefono</td>
+							<td>Email</td>
+						</tr>
+						<tr>
+							<td class = "formularioDatos"><input type = "text"></td>
+							<td class = "formularioDatos"><input type = "text"></td>
+							<td class = "formularioDatos"><input type = "text"></td>
+						</tr>
+					</table>
+					<textarea rows = 20 cols = 50>Quiero hacer una reserva a las 20:30 el Martes 9!</textarea>
+					<br>
+					<input type = "checkbox" id = "terminosCondiciones"><label for = "terminosCondiciones"> Acepto los <a>terminos y condiciones</a></label>
+					<br>
+					<button type = "submit" src = "">Enviar</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!-- fin contacto -->
+	<!-- footer -->
+	<section id = "footer">
+		<div class = "footer-content">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12146.22395337871!2d-3.7112362!3d40.4408297!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88b35c6b0f6fcb52!2sIES%20Islas%20Filipinas!5e0!3m2!1ses!2ses!4v1615307809330!5m2!1ses!2ses" width="400" height="300" style = "border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<table>
+				<tr>
+					<td colspan = 2><h4>Dirección</h4></td>
+					<td colspan = 2><h4>Teléfono</h4></td>
+				</tr>
+				<tr>
+					<td colspan = 2><p>C/ IES Islas FIlipinas DAM 2V</p></td>
+					<td colspan = 2><p>+34900666000</p></td>
+				</tr>
+				<tr>
+					<td colspan = 2><h4>Síguenos</h4></td>
+				</tr>
+				<tr>
+					<td><a href = "https://twitter.com/?lang=es" target = "_blank"><img src = "images/twitter-white.png"/></a></td>
+					<td><a href = "https://instagram.com" target = "_blank"><img src = "images/instagram-white.png"/></a></td>
+					<td><a href = "#footer"><img src = "images/whatsapp-white.png"/></a></td>
+					<td><a href = "#footer"><img src = "images/share-white.png"/></a></td>
+				</tr>
+			</table>
+		</div>
+		<div class = "footer">
+			<p>Lua Restaurant &copy; Sara Perez Garcia 2021</p>
+		</div>
+	</section>
+	<!-- end footer -->
+	
+
+</body>
+</html>

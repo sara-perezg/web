@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	z-index: -1;
+	font-family: arial;
+}
+/* --------- welcome -------- */
+.welcome{
+	height:500px;
+	background-image: url(../images/restaurant.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: -600px;
+	color: #fff;
+}
+.welcome-content{
+	margin-top: 100px;
+	padding-left: 70px;
+}
+.welcome h1{
+	padding:175px 0px 25px 70px;
+	font-size: 50px;
+}
+.welcome p{
+	width: 500px;
+	padding: 15px 70px;
+	line-height: 25px;
+}
+.welcome button{
+	padding: 10px 20px;
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	margin-left: 70px;
+	text-transform: uppercase;
+}
+.welcome button a{
+	color: #fff;
+}
+.welcome button:hover {
+	background-color: #fff;
+
+}
+.welcome button:hover a{
+	color: #000;
+}
+/* --------- END welcome -------- */
+/* --------- nosotros ----------- */
+.nosotros{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	background-color: #fff;
+	color: black;
+	/* z-index: 0; */
+	text-align: right;
+}
+.nosotros h3{
+	padding: 70px 150px 20px 10px;
+	font-size: 40px;
+}
+.nosotros p{
+	position: relative;
+	width:500px;
+	padding-right: 150px;
+	float:right;
+	line-height: 25px;
+}
+.imagen img{
+	position: relative;
+	float: left;
+	border-radius: 50%;
+	width: 315px;
+	height: 289px;
+	/* z-index: 1; */
+	padding-top: 60px;
+	padding-left: 150px;
+}
+/* ------- END nosotros ---------- */
+/* ----------- contacto ------------ */
+.contacto{
+	height:700px;
+	background: url(../images/kitchen.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* background-position-y: -900px; */
+	margin-top:400px;
+	color: #fff;
+	line-height: 25px;
+	padding-top: 40px;
+
+}
+.contacto h1{
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.contacto p{
+	color:#fff;
+	width: 60%;
+	text-align: center;
+	padding-left: 20%;
+}
+.formulario a{
+	color: #fff;
+}
+.formurario{
+	background-color: #122020;
+}
+.formulario table{
+	padding-top: 20px;
+	padding-left: 35%;
+}
+.formulario tr{
+	padding: 10px;
+}
+ .formulario textarea,  #terminosCondiciones, button{
+	margin-top: 20px;
+	margin-left:35%;
+ }
+ .formulario button{
+	padding: 10px 20px;
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.formulario button:hover{
+	background-color: #fff;
+	color: #000;
+}
+/* ---------- END contacto ------------- */
+/* ---------- footer ----------- */
+.footer-content {
+	background-color:#111f20;
+	padding: 40px 15%;
+	color: #fff;
+	position: relative;
+}
+
+.footer-content table{
+	float: right;
+	margin-top: 50px;
+}
+.footer-content table td{
+	padding: 10px;
+	width: 80px;
+}
+.footer-content h4{
+	font-size: 20px;
+}
+.footer-content img{
+	background-color: #111f20;
+	padding:4px;
+	border-radius: 4px;
+}
+.footer-content img:hover{
+	background-color: #bf3d3a;
+	padding: 4px;
+	margin-top: -10px;
+}
+.footer{
+	color: #fff;
+	font-size:12px;
+	text-align: center;
+	height:30px;
+	background-color:#122020;
+}
+.footer p{
+	padding: 5px 5px;
+}
+/* ------------ END footer ------------ */

@@ -7,3 +7,26 @@
 .header{
   background-color: lightblue;
 }
+
+.nota1{
+  background-color: firebrick;
+}
+.nota2{
+  background-color: lightsalmon;
+}
+.nota3{
+  background-color: khaki;
+}
+.nota4{
+  background-color: linen;
+}
+.decreto2009{
+  background-color:#deeaee;
+}
+
+.decreto2010{
+  background-color:#b1cbbb;
+}
+.decretoOther{
+  background-color:#eea29a;
+}

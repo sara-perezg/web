@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "style.xsl"?>
+
+<ies>
+ <nombre>IES ISLAS FILIPINAS</nombre>
+ <web> https://www.educa2.madrid.org/web/centro.ies.islasfilipinas.madrid</web>
+  <ciclos>
+   <ciclo id="ASIR">
+     <nombre>Administración de Sistemas Informáticos en Red</nombre>
+     <grado>Superior</grado>
+     <decretoTitulo año="2009" />
+   </ciclo>
+   <ciclo id="DAW">
+     <nombre>Desarrollo de Aplicaciones Web</nombre>
+     <grado>Superior</grado>
+     <decretoTitulo año="2010" />
+   </ciclo>
+   <ciclo id="DAM">
+     <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+     <grado>Superior</grado>
+     <decretoTitulo año="2009" />
+   </ciclo>
+   <ciclo id="SMR">
+     <nombre>Sistemas Microinformáticos y Redes</nombre>
+     <grado>Medio</grado>
+     <decretoTitulo año="2008" />
+   </ciclo>
+ </ciclos>
+   <modulos ciclo="ASIR">
+     <nombre curso="1" horas="4">Lenguajes de marcas
+       <suspensos>
+       <alumno nota="2">Elena Nito</alumno>
+       <alumno nota="2">Elsa Martín </alumno>
+       <alumno nota="3">Aquiles Bailo </alumno>
+     </suspensos>
+     </nombre>
+     <nombre curso="1" horas="6">Gestión de bases de datos
+       <suspensos>
+       <alumno nota="3">Zoila Meza</alumno>
+       <alumno nota="2">Ramón Ponte Alegre </alumno>
+       </suspensos>
+     </nombre>
+     <nombre curso="2" horas="5">Seguridad y alta disponibilidad
+       <suspensos>
+         <alumno nota="2">Sonia Alegre Vieja</alumno>
+         <alumno nota="4">Lola Mento</alumno>
+       </suspensos>
+     </nombre>
+     <nombre curso="2" horas="3">Administración y Gestión de BBDD
+       <suspensos>
+         <alumno nota="3">Ana Tomás</alumno>
+         <alumno nota="1">Andrés Tesado</alumno>
+       </suspensos>
+      </nombre>
+   </modulos>
+   <modulos ciclo="DAW">
+   <nombre curso="1" horas="4">Lenguajes de marcas
+     <suspensos>
+       <alumno nota="3">Elba Racio</alumno>
+       <alumno nota="3">Elvis Nieto </alumno>
+       <alumno>Aquiles Bailo </alumno>
+     </suspensos> 
+   </nombre>
+   <nombre curso="1" horas="3">Entornos de desarrollo
+     <suspensos>
+       <alumno nota="3">Esteban Dido</alumno>
+       <alumno nota="2">Pepe Lotazo </alumno>
+     </suspensos>
+   </nombre>
+   <nombre curso="2" horas="8">Desarrollo de aplicaciones web en entorno servidor 
+     <suspensos>
+       <alumno nota="2">Belén Gena</alumno>
+       <alumno nota="4">Elsa Polindo</alumno>
+     </suspensos>
+   </nombre>
+ </modulos>
+</ies>

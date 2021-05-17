@@ -222,13 +222,6 @@
         </tr>
         </xsl:for-each>
         </table>
-        
-        <xsl:variable name="array" as = "element()*">
-          <Item>1</Item>  
-          <Item>2</Item>
-          <Item>3</Item>
-          <Item>4</Item>
-        </xsl:variable>
       </body>
     </html>
   </xsl:template>

@@ -3,15 +3,16 @@
   <xsl:template match="/">
     <html>
       <head>
-        <title>Mis Datos</title>  
+        <title>Mis Datos</title>
+        <link rel = "stylesheet" href="style.css"/>
       </head>
       <body>
        <h3>1. Crear una tabla HTML con los nombres y grados de los ciclos Formativos</h3> 
-        <table>
-        <th>
-        <td>Nombre</td>
-        <td>Grado</td>
-        </th>
+        <table class = "tabla">
+        <tr class = "header">
+          <td>Nombre</td>
+          <td>Grado</td>
+        </tr>
         <xsl:for-each select = "//ciclos/ciclo">
          <tr>
           <td><xsl:value-of select="nombre/text()"></xsl:value-of></td>
@@ -19,6 +20,20 @@
         </tr>
         </xsl:for-each>
         </table>
+        
+        <h3>2. Crear una tabla HTML que contenga los alumnos suspenso en cada modulo indenado nombre del aluno y nombre del modulo</h3>
+        <table>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>  
+          <xsl:for-each select="">
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+          </xsl:for-each>
+        </table>  
       </body>
     </html>
   </xsl:template>

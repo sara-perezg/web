@@ -22,18 +22,26 @@
         </table>
         
         <h3>2. Crear una tabla HTML que contenga los alumnos suspenso en cada modulo indenado nombre del aluno y nombre del modulo</h3>
-        <table>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>  
-          <xsl:for-each select="">
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
+          <table class = "tabla">
+          <xsl:for-each select="//modulos">
+            <tr class = "header"><td colspan = "2" >Nombre del ciclo</td></tr>
+            <tr><td  colspan = "2" ><xsl:value-of select="@ciclo"></xsl:value-of></td></tr>
+            <tr class = "header">
+              <td>Nombre del modulo</td>
+              <td>Nombre del alumno</td>
+            </tr>
+            <xsl:for-each select="nombre">
+            <tr>
+              <td><xsl:value-of select="text()"></xsl:value-of></td>
+              <td>
+                <xsl:for-each select="suspensos/alumno">
+                  <table><tr><td><xsl:value-of select="text()"></xsl:value-of></td></tr></table> 
+                </xsl:for-each>
+              </td>
+            </tr>
+            </xsl:for-each>
           </xsl:for-each>
-        </table>  
+          </table>
       </body>
     </html>
   </xsl:template>
